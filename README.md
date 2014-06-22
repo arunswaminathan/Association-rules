@@ -1,10 +1,11 @@
-Association-rules
+Extract Association Rules
 =================
 
 Through this project, we extract association rules from an interesting data set. The algorithm for extracting the association rules is based on Agarwal and Srikant paper of 1994. A copy of the paper can be found here: http://rakesh.agrawal-family.com/papers/vldb94apriori.pdf
 
+________
 Dataset:
-
+--------
 We used the NYC Open Dataset which contains the details of all the 311-Requests in the year 2013. The dataset itself was of 800MB containing close to a million rows.
 
 The raw dataset is available here https://data.cityofnewyork.us/Social-Services/311-Requests-2013-No-Timestamp/ve2c-ib6g
@@ -18,7 +19,9 @@ We chose this dataset because we wanted to analyse the trends in the domestic co
 
 We have attached the create_dataset.py script which we used to create out integrated dataset. When this script is run on the raw dataset defined about, our integrated dataset is generated.
 
-Description
+____________
+Description:
+------------
 
 We used the apriori algorithm described in section 2.1 of the Agrawal and Srikant paper in VLDB 1994. We calculate the frequent itemsets as freq_itemset from scratch each time the program is run. 
 
