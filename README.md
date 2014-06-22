@@ -3,7 +3,7 @@ Extract Association Rules
 
 Through this project, we extract association rules from an interesting data set. The algorithm for extracting the association rules is based on Agarwal and Srikant paper of 1994. A copy of the paper can be found here: http://rakesh.agrawal-family.com/papers/vldb94apriori.pdf
 
-________
+
 Dataset:
 --------
 We used the NYC Open Dataset which contains the details of all the 311-Requests in the year 2013. The dataset itself was of 800MB containing close to a million rows.
@@ -19,7 +19,7 @@ We chose this dataset because we wanted to analyse the trends in the domestic co
 
 We have attached the create_dataset.py script which we used to create out integrated dataset. When this script is run on the raw dataset defined about, our integrated dataset is generated.
 
-____________
+
 Description:
 ------------
 
